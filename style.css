@@ -5,15 +5,16 @@ body {
     color: rgb(0, 0, 0);
     background-color: rgb(255, 255, 255);
     scroll-behavior: smooth;
+    
 }
 
 nav {
-    background-color: rgb(248, 248, 248);
+    background-color: rgb(255, 255, 255);
     display: flex;
     justify-content: space-between;
     padding: 20px;
     border-bottom: 1px solid #000000;
-    
+
 }
 
 nav ul {
@@ -51,7 +52,7 @@ h2 {
     color: black;
     padding: 10px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    width: 26;
+    width: 20;
   
 }
 
@@ -67,7 +68,10 @@ h2 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: rgb(184, 97, 224);
 }
-
+.azul{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:rgb(104, 166, 236) ;
+}
  p {
     text-align: justify;
     padding: 1%;
@@ -114,10 +118,10 @@ nav::after {
 
 .nav-container li a {
     text-decoration: dashed;
-    font-size: 20px;
-
+    font-size: 30px;
     color: #000000;
     transition: 5s;
+    
 
 }
 
@@ -135,10 +139,10 @@ nav::after {
 }
 
 #bloco1 {
-    width: 900px;
+    width: 700px;
     margin: 0 auto;
-    font-size: 20px;
-    line-height: 30px;
+    font-size: 25px;
+    line-height: 34px;
 }
 
 .nav-container li:nth-child(1) {
@@ -188,5 +192,6 @@ nav::after {
 
 iframe {
     align-self: flex-end;
+    
 }
 
